@@ -1,0 +1,28 @@
+.home-container {
+  background-color: #ffffff12;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0px 100px 0px 100px;
+}
+.home-image {
+  width: 450px;
+  height: 500px;
+  border-radius: 10px;
+}
+.home-title {
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "roboto";
+  margin-bottom: 15px;
+}
+.home-des {
+  font-weight: 500;
+  font-family: "roboto";
+  font-size: 16px;
+  line-height: 1.7;
+  margin-right: 100px;
+}

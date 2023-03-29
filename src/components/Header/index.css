@@ -1,0 +1,32 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 70px 15px 70px;
+}
+.logo {
+  color: #262727;
+  font-weight: bold;
+  font-size: 38px;
+  font-family: "roboto";
+}
+.span-hotel {
+  color: #3056d3;
+}
+.sections-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0;
+  list-style-type: none;
+  margin-left: auto;
+}
+.section {
+  padding-left: 26px;
+  font-family: "roboto";
+  font-weight: 600;
+  font-size: 17.5px;
+  cursor: pointer;
+  color: #5c5c5c;
+  text-decoration: none;
+}

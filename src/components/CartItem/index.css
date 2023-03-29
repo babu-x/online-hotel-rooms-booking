@@ -1,0 +1,117 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 200px 0px 200px;
+}
+.date {
+  align-self: flex-start;
+  margin-bottom: 10px;
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 14px;
+}
+.cart {
+  margin-bottom: 10px;
+  width: 980px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.cart-booked-image {
+  width: 90px;
+  height: 90px;
+  margin-right: 25px;
+}
+.price {
+  font-family: "roboto";
+  font-weight: 600;
+  font-size: 20px;
+  color: #262727;
+}
+.hr {
+  width: 1px;
+  height: 90px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.type {
+  color: rgb(255, 141, 141);
+  font-weight: 600;
+  font-family: "roboto";
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.hotel-title {
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 16px;
+  color: #484848;
+  margin-top: 6px;
+}
+.rooms-container {
+  display: flex;
+  margin-top: 20px;
+}
+.rooms-title {
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 16px;
+  color: #484848;
+  margin-right: 10px;
+}
+.rooms {
+  width: 40px;
+  height: 22px;
+  margin-top: 0;
+}
+.title {
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 16px;
+  color: #484848;
+  margin-top: 17px;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+.continue {
+  background-color: green;
+  color: #fff;
+  width: 130px;
+  height: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "roboto";
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.cancel {
+  background-color: red;
+  cursor: pointer;
+  color: #fff;
+  width: 130px;
+  height: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "roboto";
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+.title-cost {
+  font-family: "roboto";
+  font-weight: 600;
+  font-size: 16px;
+  color: #fe7e29;
+  margin-top: 17px;
+}
+.hr1 {
+  width: 990px;
+  margin-top: 10px;
+}
